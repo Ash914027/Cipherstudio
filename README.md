@@ -1,16 +1,28 @@
-# React + Vite
+# 🚀 CipherStudio - Your Browser-Based React IDE
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🎯 Objective
+Build a browser-based React IDE called **CipherStudio** where users can:
+- ✨ Create and manage multiple files for a React project.
+- 📝 Write React code directly in the browser.
+- 🔄 Run and preview their project live as they code.
+- 💾 Save and reload their projects to continue later.
 
-Currently, two official plugins are available:
+The goal is to simulate a real online development environment similar to platforms like NextLeap.js or CodeSandbox, while testing your full-stack design thinking, frontend skills, and integration ability.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Features to Implement
 
-## React Compiler
+### Core Features (Required):
+- 📁 **File Management:** Users can create, delete, and organize project files.
+- 🖥️ **Code Editor:** A rich code editor for writing React components (consider using Monaco Editor or Sandpack).
+- 🌟 **Live Preview:** Display the React project output in real-time as the code changes.
+- 💾 **Save & Load Projects:** Users can save their project state and reload it later from `localStorage` with the help of `projectId`.
+- 🎨 **UI/UX:** A clean and intuitive interface for a seamless user experience.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📜 Getting Started
+To get started with CipherStudio, clone the repository and follow the setup instructions.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+git clone https://github.com/Ash914027/Cipherstudio.git
+cd Cipherstudio
+npm install
+npm start
